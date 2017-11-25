@@ -1,3 +1,3 @@
-SELECT species FROM characters
-WHERE MAX(id)
-UPDATE series = 'Martian';
+UPDATE characters
+SET species = 'Martian'
+WHERE MAX(id);
